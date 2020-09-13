@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="local" id="28ba1c6a-37ad-43ac-a45a-5a6413ec0d46" name="Unnamed" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1hLxg6L7Or3zft3IkMQTmQKvtoD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Preview" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP 脚本.print.php">
+    <configuration name="helloworld.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP/L2/helloworld.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/helloworld.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="phpinfo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/phpinfo.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="print.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L2/print.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP 脚本.print.php" />
+        <item itemvalue="JavaScript 调试.helloworld.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="" />
+      <created>1599804283400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599804283400</updated>
+      <workItem from="1599804284749" duration="24000" />
+      <workItem from="1599816035807" duration="1907000" />
+      <workItem from="1599827362310" duration="418000" />
+      <workItem from="1599846448875" duration="694000" />
+      <workItem from="1599847212541" duration="167000" />
+      <workItem from="1599847391106" duration="1167000" />
+      <workItem from="1599848578457" duration="402000" />
+      <workItem from="1599848995735" duration="21000" />
+      <workItem from="1599849064483" duration="37000" />
+      <workItem from="1599849113911" duration="60000" />
+      <workItem from="1599849206324" duration="441000" />
+      <workItem from="1599849662005" duration="20000" />
+      <workItem from="1599849692215" duration="21000" />
+      <workItem from="1599849724661" duration="227000" />
+      <workItem from="1599849964156" duration="2515000" />
+      <workItem from="1599924822678" duration="618000" />
+      <workItem from="1599930275032" duration="426000" />
+      <workItem from="1599934472227" duration="917000" />
+      <workItem from="1599969452327" duration="2465000" />
+      <workItem from="1600019042732" duration="716000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599816499584">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="175" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1599816499584" />
+    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599849074394">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1599849074394" />
+    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599816466054">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1599816466054" />
+    <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599849508498">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.920@0.0.1440.920" timestamp="1599849508498" />
+    <state x="501" y="201" key="FileChooserDialogImpl" timestamp="1600019593603">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="501" y="201" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1600019593603" />
+    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog" timestamp="1600019726738">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019726738" />
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1599973808615">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1599973808615" />
+    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1599973808614">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1599973808614" />
+    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1599973808614">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1599973808614" />
+    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1599973808615">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1599973808615" />
+    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1599970007755">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1599970007755" />
+    <state x="222" y="105" key="SettingsEditor" timestamp="1599850365840">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1599850365840" />
+    <state x="377" y="213" key="run.anything.popup" timestamp="1599849637098">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="377" y="213" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1599849637098" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
