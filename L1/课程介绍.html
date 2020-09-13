@@ -1,0 +1,546 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>课程介绍.mkd</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+.typora-export .task-list-item input { pointer-events: none; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; image-orientation: from-image; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; font-variant-ligatures: no-common-ligatures; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  .is-mac table { break-inside: avoid; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+#write.first-line-indent p > .md-image:only-child:not(.md-img-error) img { left: -2em; position: relative; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+@media print {
+  .typora-export h1, .typora-export h2, .typora-export h3, .typora-export h4, .typora-export h5, .typora-export h6 { break-inside: avoid; }
+  .typora-export h1::after, .typora-export h2::after, .typora-export h3::after, .typora-export h4::after, .typora-export h5::after, .typora-export h6::after { content: ""; display: block; height: 100px; margin-bottom: -100px; }
+}
+
+
+:root {
+    --side-bar-bg-color: #fafafa;
+    --control-text-color: #777;
+}
+
+@include-when-export url(https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext);
+
+/* open-sans-regular - latin-ext_latin */
+  /* open-sans-italic - latin-ext_latin */
+    /* open-sans-700 - latin-ext_latin */
+    /* open-sans-700italic - latin-ext_latin */
+  html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans","Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.6;
+}
+
+#write {
+    max-width: 860px;
+  	margin: 0 auto;
+  	padding: 30px;
+    padding-bottom: 100px;
+}
+
+@media only screen and (min-width: 1400px) {
+	#write {
+		max-width: 1024px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#write {
+		max-width: 1200px;
+	}
+}
+
+#write > ul:first-child,
+#write > ol:first-child{
+    margin-top: 30px;
+}
+
+a {
+    color: #4183C4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 1.4;
+    cursor: text;
+}
+h1:hover a.anchor,
+h2:hover a.anchor,
+h3:hover a.anchor,
+h4:hover a.anchor,
+h5:hover a.anchor,
+h6:hover a.anchor {
+    text-decoration: none;
+}
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+h1 {
+    font-size: 2.25em;
+    line-height: 1.2;
+    border-bottom: 1px solid #eee;
+}
+h2 {
+    font-size: 1.75em;
+    line-height: 1.225;
+    border-bottom: 1px solid #eee;
+}
+
+@media print {
+    .typora-export h1,
+    .typora-export h2 {
+        border-bottom: none;
+        padding-bottom: initial;
+    }
+
+    .typora-export h1::after,
+    .typora-export h2::after {
+        border-top: 1px solid #eee;
+        margin-top: .3em;
+    }
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.43;
+}
+h4 {
+    font-size: 1.25em;
+}
+h5 {
+    font-size: 1em;
+}
+h6 {
+   font-size: 1em;
+    color: #777;
+}
+p,
+blockquote,
+ul,
+ol,
+dl,
+table{
+    margin: 0.8em 0;
+}
+li>ol,
+li>ul {
+    margin: 0 0;
+}
+hr {
+    height: 2px;
+    padding: 0;
+    margin: 16px 0;
+    background-color: #e7e7e7;
+    border: 0 none;
+    overflow: hidden;
+    box-sizing: content-box;
+}
+
+li p.first {
+    display: inline-block;
+}
+ul,
+ol {
+    padding-left: 30px;
+}
+ul:first-child,
+ol:first-child {
+    margin-top: 0;
+}
+ul:last-child,
+ol:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding: 0 15px;
+    color: #777777;
+}
+blockquote blockquote {
+    padding-right: 0;
+}
+table {
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n),
+thead {
+    background-color: #f8f8f8;
+}
+table tr th {
+    font-weight: bold;
+    border: 1px solid #dfe2e5;
+    border-bottom: 0;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
+
+.CodeMirror-lines {
+    padding-left: 4px;
+}
+
+.code-tooltip {
+    box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
+    border-top: 1px solid #eef2f2;
+}
+
+.md-fences,
+code,
+tt {
+    border: 1px solid #e7eaed;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 0;
+    padding: 2px 4px 0px 4px;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: #f3f4f4;
+    padding: 0 2px 0 2px;
+}
+
+.md-fences {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+}
+
+
+.md-task-list-item > input {
+  margin-left: -1.3em;
+}
+
+@media print {
+    html {
+        font-size: 13px;
+    }
+    table,
+    pre {
+        page-break-inside: avoid;
+    }
+    pre {
+        word-wrap: break-word;
+    }
+}
+
+.md-fences {
+	background-color: #f8f8f8;
+}
+#write pre.md-meta-block {
+	padding: 1rem;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border: 0;
+    border-radius: 3px;
+    color: #777777;
+    margin-top: 0 !important;
+}
+
+.mathjax-block>.code-tooltip {
+	bottom: .375rem;
+}
+
+.md-mathjax-midline {
+    background: #fafafa;
+}
+
+#write>h3.md-focus:before{
+	left: -1.5625rem;
+	top: .375rem;
+}
+#write>h4.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h5.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+#write>h6.md-focus:before{
+	left: -1.5625rem;
+	top: .285714286rem;
+}
+.md-image>.md-meta {
+    /*border: 1px solid #ddd;*/
+    border-radius: 3px;
+    padding: 2px 0px 0px 4px;
+    font-size: 0.9em;
+    color: inherit;
+}
+
+.md-tag {
+    color: #a7a7a7;
+    opacity: 1;
+}
+
+.md-toc { 
+    margin-top:20px;
+    padding-bottom:20px;
+}
+
+.sidebar-tabs {
+    border-bottom: none;
+}
+
+#typora-quick-open {
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+}
+
+#typora-quick-open-item {
+    background-color: #FAFAFA;
+    border-color: #FEFEFE #e5e5e5 #e5e5e5 #eee;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/** focus mode */
+.on-focus-mode blockquote {
+    border-left-color: rgba(85, 85, 85, 0.12);
+}
+
+header, .context-menu, .megamenu-content, footer{
+    font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.file-node-content:hover .file-node-icon,
+.file-node-content:hover .file-node-open-state{
+    visibility: visible;
+}
+
+.mac-seamless-mode #typora-sidebar {
+    background-color: #fafafa;
+    background-color: var(--side-bar-bg-color);
+}
+
+.md-lang {
+    color: #b4654d;
+}
+
+.html-for-mac .context-menu {
+    --item-hover-bg-color: #E6F0FE;
+}
+
+#md-notification .btn {
+    border: 0;
+}
+
+.dropdown-menu .divider {
+    border-color: #e5e5e5;
+}
+
+.ty-preferences .window-content {
+    background-color: #fafafa;
+}
+
+.ty-preferences .nav-group-item.active {
+    color: white;
+    background: #999;
+}
+
+
+</style>
+</head>
+<body class='typora-export os-windows'>
+<div id='write'  class=''><p>&nbsp;</p><h1><a name="php与mysql课程介绍" class="md-header-anchor"></a><span>                           PHP与Mysql课程介绍</span></h1><p><span>                                                                                  授课人：常鹏程 Ph.D </span></p><p><span>                                                                                  邮   箱：</span><a href='mailto:wdcpc@zzu.edu.cn' target='_blank' class='url'>wdcpc@zzu.edu.cn</a></p><p><span>                                                                                  电   话：15516926912</span></p><h2><a name="第一节初识php" class="md-header-anchor"></a><strong><span>第一节、初识PHP</span></strong></h2><h3><a name="php-概述" class="md-header-anchor"></a><span>PHP 概述</span></h3><p><span>PHP 是服务器端脚本语言。</span></p><hr /><h3><a name="您应当具备的基础知识" class="md-header-anchor"></a><span>您应当具备的基础知识</span></h3><p><span>在继续学习之前，您需要对以下知识有基本的了解：</span></p><ul><li><span>HTML</span></li><li><span>CSS</span></li></ul><hr /><h3><a name="php-是什么" class="md-header-anchor"></a><span>PHP 是什么？</span></h3><ul><li><span>PHP（全称：PHP：Hypertext Preprocessor，即&quot;PHP：超文本预处理器&quot;）是一种通用开源脚本语言。</span></li><li><span>PHP 脚本在服务器上执行。</span></li><li><span>PHP 可免费下载使用。</span></li></ul><hr /><h3><a name="php-文件是什么" class="md-header-anchor"></a><span>PHP 文件是什么？</span></h3><ul><li><span>PHP 文件可包含文本、HTML、JavaScript代码和 PHP 代码</span></li><li><span>PHP 代码在服务器上执行，结果以纯 HTML 形式返回给浏览器</span></li><li><span>PHP 文件的默认文件扩展名是 &quot;.php&quot;</span></li></ul><hr /><h3><a name="php-能做什么" class="md-header-anchor"></a><span>PHP 能做什么？</span></h3><ul><li><span>PHP 可以生成动态页面内容</span></li><li><span>PHP 可以创建、打开、读取、写入、关闭服务器上的文件</span></li><li><span>PHP 可以收集表单数据</span></li><li><span>PHP 可以发送和接收 cookies</span></li><li><span>PHP 可以添加、删除、修改您的数据库中的数据</span></li><li><span>PHP 可以限制用户访问您的网站上的一些页面</span></li><li><span>PHP 可以加密数据</span></li></ul><p><span>通过 PHP，您不再限于输出 HTML。您可以输出图像、PDF 文件，甚至 Flash 电影。您还可以输出任意的文本，比如 XHTML 和 XML。</span></p><hr /><h3><a name="为什么使用-php" class="md-header-anchor"></a><span>为什么使用 PHP？</span></h3><ul><li><span>PHP 可在不同的平台上运行（Windows、Linux、Unix、Mac OS X 等）</span></li><li><span>PHP 与目前几乎所有的正在被使用的服务器相兼容（Apache、IIS 等）</span></li><li><span>PHP 提供了广泛的数据库支持</span></li><li><span>PHP 是免费的，可从官方的 PHP 资源下载它：</span><a href='http://www.php.net/'><span> www.php.net</span></a></li><li><span>PHP 易于学习，并可高效地运行在服务器端</span></li></ul><hr /><h3><a name="php的地位" class="md-header-anchor"></a><span>PHP的地位</span></h3><h3><a name="编程语言排行榜-top-20-榜单" class="md-header-anchor"></a><span>编程语言排行榜 TOP 20 榜单</span></h3><figure><table><thead><tr><th style='text-align:left;' ><span>排名</span></th><th><span>编程语言</span></th><th><span>流行度</span></th><th><span>对比上月</span></th><th><span>年度明星语言</span></th></tr></thead><tbody><tr><td style='text-align:left;' ><span>1</span></td><td><span>C</span></td><td><span>16.98%</span></td><td><span> 0.53%</span></td><td><span>2017, 2008, 2019</span></td></tr><tr><td style='text-align:left;' ><span>2</span></td><td><span>Java</span></td><td><span>14.43%</span></td><td><span> 0.67%</span></td><td><span>2015, 2005</span></td></tr><tr><td style='text-align:left;' ><span>3</span></td><td><span>Python</span></td><td><span>9.69%</span></td><td><span> 0.6%</span></td><td><span>2010, 2007, 2018</span></td></tr><tr><td style='text-align:left;' ><span>4</span></td><td><span>C++</span></td><td><span>6.84%</span></td><td><span> 0.63%</span></td><td><span>2003</span></td></tr><tr><td style='text-align:left;' ><span>5</span></td><td><span>C#</span></td><td><span>4.68%</span></td><td><span> 0.57%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>6</span></td><td><span>Visual Basic</span></td><td><span>4.66%</span></td><td><span> 0.57%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>7</span></td><td><span>JavaScript</span></td><td><span>2.87%</span></td><td><span> 0.39%</span></td><td><span>2014</span></td></tr><tr><td style='text-align:left;' ><span>8</span></td><td><span>R</span></td><td><span>2.79%</span></td><td><span> 0.38%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><font color=red><span>9</span></font></td><td><font color=red><span>PHP</span></font></td><td><span>2.24%</span></td><td><span> 0.34%</span></td><td><span>2004</span></td></tr><tr><td style='text-align:left;' ><span>10</span></td><td><span>SQL</span></td><td><span>1.46%</span></td><td><span> 0.06%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>11</span></td><td><span>Go</span></td><td><span>1.43%</span></td><td><span> 0.22%</span></td><td><span>2016, 2009</span></td></tr><tr><td style='text-align:left;' ><span>12</span></td><td><span>Swift</span></td><td><span>1.42%</span></td><td><span> 0.01%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>13</span></td><td><span>Perl</span></td><td><span>1.11%</span></td><td><span> 0.24%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>14</span></td><td><span>Assembly language</span></td><td><span>1.04%</span></td><td><span> 0.1%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>15</span></td><td><span>Ruby</span></td><td><span>1.03%</span></td><td><span> 0.22%</span></td><td><span>2006</span></td></tr><tr><td style='text-align:left;' ><span>16</span></td><td><span>MATLAB</span></td><td><span>0.86%</span></td><td><span> 0.02%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>17</span></td><td><span>Classic Visual Basic</span></td><td><span>0.82%</span></td><td><span> 0.16%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>18</span></td><td><span>Groovy</span></td><td><span>0.77%</span></td><td><span> 0.19%</span></td><td>&nbsp;</td></tr><tr><td style='text-align:left;' ><span>19</span></td><td><span>Objective-C</span></td><td><span>0.76%</span></td><td><span> 0.15%</span></td><td><span>2012, 2011</span></td></tr><tr><td style='text-align:left;' ><span>20</span></td><td><span>Rust</span></td><td><span>0.74%</span></td><td><span> 0.04%</span></td><td>&nbsp;</td></tr></tbody></table></figure><hr /><h2><a name="第二节初始mysql" class="md-header-anchor"></a><span>第二节、初始MySQL</span></h2><h3><a name="mysql-概述" class="md-header-anchor"></a><span>MySQL 概述</span></h3><p><span>MySQL 是最流行的关系型数据库管理系统，在 WEB 应用方面 MySQL 是最好的 RDBMS(Relational Database Management System：关系数据库管理系统)应用软件之一。</span></p><hr /><h3><a name="什么是数据库" class="md-header-anchor"></a><span>什么是数据库？</span></h3><p><span>数据库（Database）是按照数据结构来组织、存储和管理数据的仓库。</span></p><p><span>每个数据库都有一个或多个不同的 API 用于创建，访问，管理，搜索和复制所保存的数据。</span></p><p><span>我们也可以将数据存储在文件中，但是在文件中读写数据速度相对较慢。</span></p><p><span>所以，现在我们使用关系型数据库管理系统（RDBMS）来存储和管理大数据量。所谓的关系型数据库，是建立在关系模型基础上的数据库，借助于集合代数等数学概念和方法来处理数据库中的数据。</span></p><p><span>RDBMS 即关系数据库管理系统(Relational Database Management System)的特点：</span></p><ul><li><span>1.数据以表格的形式出现</span></li><li><span>2.每行为各种记录名称</span></li><li><span>3.每列为记录名称所对应的数据域</span></li><li><span>4.许多的行和列组成一张表单</span></li><li><span>5.若干的表单组成database</span></li></ul><hr /><h3><a name="rdbms-术语" class="md-header-anchor"></a><span>RDBMS 术语</span></h3><p><span>在我们开始学习MySQL 数据库前，让我们先了解下RDBMS的一些术语：</span></p><ul><li><strong><span>数据库:</span></strong><span> 数据库是一些关联表的集合。</span></li><li><strong><span>数据表:</span></strong><span> 表是数据的矩阵。在一个数据库中的表看起来像一个简单的电子表格。</span></li><li><strong><span>列:</span></strong><span> 一列(数据元素) 包含了相同类型的数据, 例如邮政编码的数据。</span></li><li><strong><span>行：</span></strong><span>一行（=元组，或记录）是一组相关的数据，例如一条用户订阅的数据。</span></li><li><strong><span>冗余</span></strong><span>：存储两倍数据，冗余降低了性能，但提高了数据的安全性。</span></li><li><strong><span>主键</span></strong><span>：主键是唯一的。一个数据表中只能包含一个主键。你可以使用主键来查询数据。</span></li><li><strong><span>外键：</span></strong><span>外键用于关联两个表。</span></li><li><strong><span>复合键</span></strong><span>：复合键（组合键）将多个列作为一个索引键，一般用于复合索引。</span></li><li><strong><span>索引：</span></strong><span>使用索引可快速访问数据库表中的特定信息。索引是对数据库表中一列或多列的值进行排序的一种结构。类似于书籍的目录。</span></li><li><strong><span>参照完整性:</span></strong><span> 参照的完整性要求关系中不允许引用不存在的实体。与实体完整性是关系模型必须满足的完整性约束条件，目的是保证数据的一致性。</span></li></ul><p><span>MySQL 为关系型数据库(Relational Database Management System), 这种所谓的&quot;关系型&quot;可以理解为&quot;表格&quot;的概念, 一个关系型数据库由一个或数个表格组成。</span></p><ul><li><span>表头(header): 每一列的名称（字段名字）;</span></li><li><span>列(col): 具有相同数据类型的数据的集合;</span></li><li><span>行(row): 每一行用来描述某条记录的具体信息;</span></li><li><span>值(value): 行的具体信息, 每个值必须与该列的数据类型相同;</span></li><li><strong><span>键(key)</span></strong><span>: 键的值在当前列中具有唯一性。</span></li></ul><hr /><h3><a name="mysql数据库" class="md-header-anchor"></a><span>MySQL数据库</span></h3><p><span>MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，目前属于 Oracle 公司。MySQL 是一种关联数据库管理系统，关联数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。</span></p><ul><li><span>MySQL 是开源的，所以你不需要支付额外的费用。</span></li><li><span>MySQL 支持大型的数据库。可以处理拥有上千万条记录的大型数据库。</span></li><li><span>MySQL 使用标准的 SQL 数据语言形式。</span></li><li><span>MySQL 可以运行于多个系统上，并且支持多种语言。这些编程语言包括 C、C++、Python、Java、Perl、PHP、Eiffel、Ruby 和 Tcl 等。</span></li><li><span>MySQL 对PHP有很好的支持，PHP 是目前最流行的 Web 开发语言。</span></li><li><span>MySQL 支持大型数据库，支持 5000 万条记录的数据仓库，32 位系统表文件最大可支持 4GB，64 位系统支持最大的表文件为8TB。</span></li><li><span>MySQL 是可以定制的，采用了 GPL 协议，你可以修改源码来开发自己的 MySQL 系统。</span></li></ul><hr /><h3><a name="mysql地位" class="md-header-anchor"></a><span>MySQL地位</span></h3><h3><a name="数据库排行榜" class="md-header-anchor"></a><span>数据库排行榜</span></h3><figure><table><thead><tr><th><span>排名</span></th><th><span>上月</span></th><th><span>数据库名称</span></th><th><span>数据库类型</span></th><th><span>分数</span></th><th><span>变化</span></th></tr></thead><tbody><tr><td><span>1</span></td><td><span>1</span></td><td><span>Oracle</span></td><td><span>Relational</span></td><td><span>1369.36</span></td><td><span> +14.21</span></td></tr><tr><td><font color=red><span>2</span></font></td><td><font color=red><span>2</span></font></td><td><font color=red><span>MySQL</span></font></td><td><font color=red><span>Relational</span></font></td><td><span>1264.25</span></td><td><span> +2.67</span></td></tr><tr><td><span>3</span></td><td><span>3</span></td><td><span>Microsoft SQL Server</span></td><td><span>Relational</span></td><td><span>1062.76</span></td><td><span> -13.12</span></td></tr><tr><td><span>4</span></td><td><span>4</span></td><td><span>PostgreSQL</span></td><td><span>Relational</span></td><td><span>542.29</span></td><td><span> +5.52</span></td></tr><tr><td><span>5</span></td><td><span>5</span></td><td><span>MongoDB</span></td><td><span>Document</span></td><td><span>446.48</span></td><td><span> +2.92</span></td></tr><tr><td><span>6</span></td><td><span>6</span></td><td><span>IBM Db2</span></td><td><span>Relational</span></td><td><span>161.24</span></td><td><span> -1.21</span></td></tr><tr><td><span>7</span></td><td><span>8</span></td><td><span>Redis</span></td><td><span>Key-value</span></td><td><span>151.86</span></td><td><span> -1.02</span></td></tr><tr><td><span>8</span></td><td><span>7</span></td><td><span>Elasticsearch</span></td><td><span>Search engine</span></td><td><span>150.5</span></td><td><span> -1.82</span></td></tr><tr><td><span>9</span></td><td><span>11</span></td><td><span>SQLite</span></td><td><span>Relational</span></td><td><span>126.68</span></td><td><span> -0.14</span></td></tr><tr><td><span>10</span></td><td><span>10</span></td><td><span>Cassandra</span></td><td><span>Wide column</span></td><td><span>119.18</span></td><td><span> -0.66</span></td></tr><tr><td><span>11</span></td><td><span>9</span></td><td><span>Microsoft Access</span></td><td><span>Relational</span></td><td><span>118.45</span></td><td><span> -1.41</span></td></tr><tr><td><span>12</span></td><td><span>13</span></td><td><span>MariaDB</span></td><td><span>Relational</span></td><td><span>91.61</span></td><td><span> +0.69</span></td></tr><tr><td><span>13</span></td><td><span>12</span></td><td><span>Splunk</span></td><td><span>Search engine</span></td><td><span>87.9</span></td><td><span> -2.01</span></td></tr><tr><td><span>14</span></td><td><span>15</span></td><td><span>Teradata</span></td><td><span>Relational</span></td><td><span>76.39</span></td><td><span> -0.39</span></td></tr><tr><td><span>15</span></td><td><span>14</span></td><td><span>Hive</span></td><td><span>Relational</span></td><td><span>71.17</span></td><td><span> -4.12</span></td></tr><tr><td><span>16</span></td><td><span>18</span></td><td><span>Amazon DynamoDB</span></td><td><span>Multi-model</span></td><td><span>66.18</span></td><td><span> +1.43</span></td></tr><tr><td><span>17</span></td><td><span>25</span></td><td><span>Microsoft Azure SQL Database</span></td><td><span>Relational</span></td><td><span>60.45</span></td><td><span> +3.6</span></td></tr><tr><td><span>18</span></td><td><span>19</span></td><td><span>SAP Adaptive Server</span></td><td><span>Relational</span></td><td><span>54.01</span></td><td><span> +0.05</span></td></tr><tr><td><span>19</span></td><td><span>21</span></td><td><span>SAP HANA</span></td><td><span>Relational</span></td><td><span>52.86</span></td><td><span> -0.26</span></td></tr><tr><td><span>20</span></td><td><span>16</span></td><td><span>Solr</span></td><td><span>Search engine</span></td><td><span>51.62</span></td><td><span> -0.08</span></td></tr></tbody></table></figure></div>
+</body>
+</html>
