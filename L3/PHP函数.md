@@ -44,8 +44,6 @@ sayhi(); // 调用函数
 ?>
 ```
 
-[运行实例](https://www.w3school.com.cn/tiy/s.asp?f=demo_php_function1)
-
 ## PHP 函数参数
 
 可以通过参数向函数传递信息。参数类似变量。
@@ -70,8 +68,6 @@ familyName("Jian");
 ?>
 ```
 
-[运行实例](https://www.w3school.com.cn/tiy/s.asp?f=demo_php_function2)
-
 下面的例子中的函数有两个参数（$fname 和 $year）：
 
 ### 实例
@@ -87,8 +83,6 @@ familyName("Hong","1978");
 familyName("Tao","1983");
 ?>
 ```
-
-[运行实例](https://www.w3school.com.cn/tiy/s.asp?f=demo_php_function3)
 
 ## PHP 默认参数值
 
