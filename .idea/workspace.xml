@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="" />
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L1/课程介绍.mkd" beforeDir="false" afterPath="$PROJECT_DIR$/L1/课程介绍.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L2/helloworld.html" beforeDir="false" afterPath="$PROJECT_DIR$/L2/helloworld.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +30,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
@@ -25,19 +41,22 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hLxg6L7Or3zft3IkMQTmQKvtoD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Markdown" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Preview" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -60,7 +79,12 @@
     <configuration name="phpinfo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/phpinfo.php">
       <method v="2" />
     </configuration>
-    <configuration name="print.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L2/print.php">
+    <configuration name="print.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" singleton="false" temporary="true" path="$PROJECT_DIR$/L2/print.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -98,11 +122,45 @@
       <workItem from="1599934472227" duration="917000" />
       <workItem from="1599969452327" duration="2465000" />
       <workItem from="1600019042732" duration="716000" />
+      <workItem from="1600019839031" duration="500000" />
+      <workItem from="1600167753134" duration="2301000" />
+      <workItem from="1600227524593" duration="3000" />
     </task>
+    <task id="LOCAL-00001" summary="Default Changelist">
+      <created>1600020074350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020074350</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1600020133696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600020133696</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default Changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599816499584">
@@ -121,14 +179,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.920@0.0.1440.920" timestamp="1599849508498" />
+    <state x="620" y="206" key="EnvironmentVariablesDialog" timestamp="1600169570071">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="620" y="206" key="EnvironmentVariablesDialog/0.0.1440.920@0.0.1440.920" timestamp="1600169570071" />
     <state x="501" y="201" key="FileChooserDialogImpl" timestamp="1600019593603">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="501" y="201" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1600019593603" />
-    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog" timestamp="1600019726738">
+    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog" timestamp="1600019891596">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019726738" />
+    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1599973808615">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -149,14 +211,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1599970007755" />
-    <state x="222" y="105" key="SettingsEditor" timestamp="1599850365840">
+    <state x="222" y="105" key="SettingsEditor" timestamp="1600169561688">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1599850365840" />
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600169561688" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600020028922">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1600020028922" />
     <state x="377" y="213" key="run.anything.popup" timestamp="1599849637098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="213" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1599849637098" />
+    <state x="526" y="144" key="svn.repositoryBrowser" timestamp="1600019905034">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="526" y="144" key="svn.repositoryBrowser/0.0.1440.920@0.0.1440.920" timestamp="1600019905034" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
