@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/L2/code/1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L1/课程介绍.mkd" beforeDir="false" afterPath="$PROJECT_DIR$/L1/课程介绍.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L2/helloworld.html" beforeDir="false" afterPath="$PROJECT_DIR$/L2/helloworld.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +52,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Markdown" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/Extensions/php/php7.3.4nts/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -64,8 +63,11 @@
       <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.print.php">
+  <component name="RunManager" selected="PHP 脚本.1.php">
     <configuration name="helloworld.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP/L2/helloworld.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L2/code/1.php">
       <method v="2" />
     </configuration>
     <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/helloworld.php">
@@ -89,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.1.php" />
         <item itemvalue="PHP 脚本.print.php" />
         <item itemvalue="JavaScript 调试.helloworld.html" />
       </list>
@@ -125,6 +128,8 @@
       <workItem from="1600019839031" duration="500000" />
       <workItem from="1600167753134" duration="2301000" />
       <workItem from="1600227524593" duration="3000" />
+      <workItem from="1600313951533" duration="23000" />
+      <workItem from="1600313983875" duration="1815000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -163,58 +168,62 @@
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="175" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599816499584">
+    <state x="301" y="115" key="#CLI_Interpreters" timestamp="1600314271163">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="175" y="115" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1599816499584" />
+    <state x="301" y="115" key="#CLI_Interpreters/0.0.1440.920@0.0.1440.920" timestamp="1600314271163" />
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600314105073">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314105073" />
     <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599849074394">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1599849074394" />
-    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1599816466054">
+    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600314104337">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1599816466054" />
+    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314104337" />
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599849508498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.920@0.0.1440.920" timestamp="1599849508498" />
-    <state x="620" y="206" key="EnvironmentVariablesDialog" timestamp="1600169570071">
+    <state x="620" y="206" key="EnvironmentVariablesDialog" timestamp="1600314162884">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="620" y="206" key="EnvironmentVariablesDialog/0.0.1440.920@0.0.1440.920" timestamp="1600169570071" />
-    <state x="501" y="201" key="FileChooserDialogImpl" timestamp="1600019593603">
+    <state x="620" y="206" key="EnvironmentVariablesDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314162884" />
+    <state x="501" y="201" key="FileChooserDialogImpl" timestamp="1600314167626">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="501" y="201" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1600019593603" />
+    <state x="501" y="201" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1600314167626" />
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog" timestamp="1600019891596">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1599973808615">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1600315044868">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1599973808615" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1599973808614">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1600315044868" />
+    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1600315044868">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1599973808614" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1599973808614">
+    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1600315044868" />
+    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1600315044868">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1599973808614" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1599973808615">
+    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1600315044868" />
+    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1600315044868">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1599973808615" />
-    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1599970007755">
+    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1600315044868" />
+    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1600315028943">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1599970007755" />
-    <state x="222" y="105" key="SettingsEditor" timestamp="1600169561688">
+    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1600315028943" />
+    <state x="222" y="105" key="SettingsEditor" timestamp="1600314272976">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600169561688" />
+    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600314272976" />
     <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600020028922">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
