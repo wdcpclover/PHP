@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/L3/Functions/常用函数.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L3/Functions/optionalarguments.php" beforeDir="false" afterPath="$PROJECT_DIR$/L3/Functions/optionalarguments.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L3/Functions/passargumentsbyreference.php" beforeDir="false" afterPath="$PROJECT_DIR$/L3/Functions/passargumentsbyreference.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L3/Functions/recursivefunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/L3/Functions/recursivefunctions.php" afterDir="false" />
-    </list>
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +131,7 @@
       <workItem from="1600313951533" duration="23000" />
       <workItem from="1600313983875" duration="3857000" />
       <workItem from="1600340182457" duration="3801000" />
-      <workItem from="1600614453700" duration="1377000" />
+      <workItem from="1600614453700" duration="1983000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -246,10 +240,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600343857091" />
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600614602822">
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600615847338">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1600614602822" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1600615847338" />
     <state x="377" y="213" key="run.anything.popup" timestamp="1599849637098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
