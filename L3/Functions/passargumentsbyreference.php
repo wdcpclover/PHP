@@ -3,7 +3,8 @@
     $cost = 20.99;
     $tax = 0.0575;
 
-    function calculateCost&$cost, $tax)
+    function calculateCost($cost, $tax)
+
     {
         // Modify the $cost variable
         $cost = $cost + ($cost * $tax);

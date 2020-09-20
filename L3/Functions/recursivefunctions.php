@@ -2,6 +2,7 @@
 
 function amortizationTable($pNum, $periodicPayment, $balance, $monthlyInterest)
 {
+
     // Calculate payment interest
     $paymentInterest = round($balance * $monthlyInterest, 2);
 

@@ -1,6 +1,6 @@
 <?php
 
-function calcSalesTax($price, $tax="") 
+function calcSalesTax($price, $tax="5")
 {
     $total = $price + ($price * $tax);
     echo "Total cost: $total";
