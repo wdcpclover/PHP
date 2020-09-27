@@ -147,7 +147,7 @@ echo "Peter is " . $age['Peter'] . " years old.";
 
 ## 实例
 
-```
+```php
 
 <?php
 $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");

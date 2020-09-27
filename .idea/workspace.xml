@@ -10,7 +10,37 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/L2/PHP 变量.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2/code/familyname.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L2/php===============================时间日期===============================y返回年最后两位，Y年四位数，m月份数字，M月份英文。d月份几号数字，D星期几英文$da.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/ code/helltest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/ code/sumphp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/PHP函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/常用函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L3/常用函数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/CODE/ARRAYtest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/CODE/arrayraltion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/CODE/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/PHP 数组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/foreach用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L4/list用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/PIC/例子.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/7.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/code/duotai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/一、面向对象的概念.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/三、面向对象的高级实战.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/二、面向对象的基本实践.assets/例子.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L5/二、面向对象的基本实践.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L4/PHP 数组.md" beforeDir="false" afterPath="$PROJECT_DIR$/L4/PHP 数组.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +67,15 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1hLxg6L7Or3zft3IkMQTmQKvtoD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -52,7 +85,7 @@
     <property name="last_opened_file_path" value="D:/phpstudy_pro/Extensions/php/php7.3.4nts/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -60,11 +93,20 @@
       <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.recursivefunctions.php">
-    <configuration name="optionalarguments.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP/L3/Functions/optionalarguments.php" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="PHP 脚本.duotai.php">
+    <configuration name="3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/3.php">
       <method v="2" />
     </configuration>
-    <configuration name="passargumentsbyvalue.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP/L3/Functions/passargumentsbyvalue.php" useBuiltInWebServerPort="true">
+    <configuration name="4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/4.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/5.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="7.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/7.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="duotai.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/duotai.php">
       <method v="2" />
     </configuration>
     <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/helloworld.php">
@@ -75,25 +117,16 @@
       </CommandLine>
       <method v="2" />
     </configuration>
-    <configuration name="invokefunction.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L3/Functions/invokefunction.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="passargumentsbyreference.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L3/Functions/passargumentsbyreference.php">
-      <method v="2" />
-    </configuration>
     <configuration name="phpinfo.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/phpinfo.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="recursivefunctions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L3/Functions/recursivefunctions.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP 脚本.recursivefunctions.php" />
-        <item itemvalue="JavaScript 调试.passargumentsbyvalue.php" />
-        <item itemvalue="PHP 脚本.passargumentsbyreference.php" />
-        <item itemvalue="JavaScript 调试.optionalarguments.php" />
-        <item itemvalue="PHP 脚本.invokefunction.php" />
+        <item itemvalue="PHP 脚本.duotai.php" />
+        <item itemvalue="PHP 脚本.7.php" />
+        <item itemvalue="PHP 脚本.5.php" />
+        <item itemvalue="PHP 脚本.4.php" />
+        <item itemvalue="PHP 脚本.3.php" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +165,10 @@
       <workItem from="1600313983875" duration="3857000" />
       <workItem from="1600340182457" duration="3801000" />
       <workItem from="1600614453700" duration="1983000" />
+      <workItem from="1600669227202" duration="4577000" />
+      <workItem from="1600673903123" duration="426000" />
+      <workItem from="1601198667204" duration="35000" />
+      <workItem from="1601198710334" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -180,6 +217,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
@@ -216,30 +254,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1600615329357">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1601214497433">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1600615329357" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1600615329357">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
+    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1601214497433">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1600615329357" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1600615329357">
+    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
+    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1601214497433">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1600615329357" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1600615329357">
+    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
+    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1601214497433">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1600615329357" />
-    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1600615821296">
+    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
+    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1601214299218">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1600615821296" />
-    <state x="222" y="105" key="SettingsEditor" timestamp="1600343857091">
+    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1601214299218" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1600670681726">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="222" y="105" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600343857091" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600670681726" />
     <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600615847338">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
