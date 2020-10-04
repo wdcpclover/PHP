@@ -15,7 +15,9 @@ class Person{
 $p1=new Person("大白",90);
 echo" <br>";
 echo "hello-".$p1->name;
-$p2=new Person("小黑",33);
+$p2=$p1;
+$p2->name="小白";
+
 echo "</br>";
-echo "aa-".$p2->name;
+echo "aa-".$p1->name;
 ?>

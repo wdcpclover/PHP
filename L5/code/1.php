@@ -14,5 +14,5 @@ $cat2->name="小黑";
 $cat2->age=5;
 $cat2->color="黑色";
 echo  $cat1->color;
-
+echo $cat2->age;
 ?>

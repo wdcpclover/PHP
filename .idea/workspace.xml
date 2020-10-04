@@ -11,35 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/L2/PHP 变量.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L2/code/familyname.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L2/php===============================时间日期===============================y返回年最后两位，Y年四位数，m月份数字，M月份英文。d月份几号数字，D星期几英文$da.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L3/ code/helltest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L3/ code/sumphp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L3/PHP函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L3/常用函数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L3/常用函数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/CODE/ARRAYtest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/CODE/arrayraltion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/CODE/list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/PHP 数组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/foreach用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L4/list用法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/PIC/例子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/code/duotai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/一、面向对象的概念.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/三、面向对象的高级实战.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/二、面向对象的基本实践.assets/例子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L5/二、面向对象的基本实践.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/error1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/error2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/PHP 异常处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/PHP 错误处理.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/set_error_handler.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L7/PHP 命名空间(namespace).md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L4/PHP 数组.md" beforeDir="false" afterPath="$PROJECT_DIR$/L4/PHP 数组.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/code/1.php" beforeDir="false" afterPath="$PROJECT_DIR$/L5/code/1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/code/2.php" beforeDir="false" afterPath="$PROJECT_DIR$/L5/code/2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/code/3.php" beforeDir="false" afterPath="$PROJECT_DIR$/L5/code/3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/code/6.php" beforeDir="false" afterPath="$PROJECT_DIR$/L5/code/6.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/三、面向对象的高级实战.md" beforeDir="false" afterPath="$PROJECT_DIR$/L5/三、面向对象的高级实战.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L5/二、面向对象的基本实践.md" beforeDir="false" afterPath="$PROJECT_DIR$/L5/二、面向对象的基本实践.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +70,7 @@
     <property name="last_opened_file_path" value="D:/phpstudy_pro/Extensions/php/php7.3.4nts/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -93,20 +78,20 @@
       <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.duotai.php">
+  <component name="RunManager" selected="PHP 脚本.error2.php">
+    <configuration name="1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/1.php">
+      <method v="2" />
+    </configuration>
     <configuration name="3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/3.php">
       <method v="2" />
     </configuration>
-    <configuration name="4.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/4.php">
+    <configuration name="6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/6.php">
       <method v="2" />
     </configuration>
-    <configuration name="5.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/5.php">
+    <configuration name="error1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error1.php">
       <method v="2" />
     </configuration>
-    <configuration name="7.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/7.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="duotai.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/duotai.php">
+    <configuration name="error2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error2.php">
       <method v="2" />
     </configuration>
     <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/helloworld.php">
@@ -122,10 +107,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP 脚本.duotai.php" />
-        <item itemvalue="PHP 脚本.7.php" />
-        <item itemvalue="PHP 脚本.5.php" />
-        <item itemvalue="PHP 脚本.4.php" />
+        <item itemvalue="PHP 脚本.error2.php" />
+        <item itemvalue="PHP 脚本.error1.php" />
+        <item itemvalue="PHP 脚本.1.php (1)" />
+        <item itemvalue="PHP 脚本.6.php" />
         <item itemvalue="PHP 脚本.3.php" />
       </list>
     </recent_temporary>
@@ -169,6 +154,10 @@
       <workItem from="1600673903123" duration="426000" />
       <workItem from="1601198667204" duration="35000" />
       <workItem from="1601198710334" duration="4845000" />
+      <workItem from="1601275628716" duration="944000" />
+      <workItem from="1601445780497" duration="4821000" />
+      <workItem from="1601818741950" duration="1101000" />
+      <workItem from="1601821342316" duration="1719000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -222,18 +211,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="115" key="#CLI_Interpreters" timestamp="1600343856081">
+    <state x="301" y="115" key="#CLI_Interpreters" timestamp="1601275922556">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="301" y="115" key="#CLI_Interpreters/0.0.1440.920@0.0.1440.920" timestamp="1600343856081" />
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600314105073">
+    <state x="301" y="115" key="#CLI_Interpreters/0.0.1440.920@0.0.1440.920" timestamp="1601275922556" />
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601277567094">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314105073" />
-    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599849074394">
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1601277567094" />
+    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601823320311">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1599849074394" />
+    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1601823320311" />
     <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600314104337">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -254,30 +243,30 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1601214497433">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1601821588081">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1601214497433">
+    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601821588081" />
+    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1601821588081">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1601214497433">
+    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601821588081" />
+    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1601821588081">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1601214497433">
+    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601821588081" />
+    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1601821588081">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601214497433" />
-    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1601214299218">
+    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601821588081" />
+    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1601821578635">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1601214299218" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1600670681726">
+    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1601821578635" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1601275923551">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1600670681726" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1601275923551" />
     <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600615847338">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
