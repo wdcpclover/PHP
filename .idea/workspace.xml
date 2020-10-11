@@ -11,23 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/L6/ code/dbex.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/ code/error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/ code/ex1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/ code/ex2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/PHP 异常处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/PHP 错误处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L6/set_error_handler.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L7/PHP 命名空间(namespace).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 必需字段.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 验证邮件和URL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/PHP 表单和用户输入.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/PHP 表单验证.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/code/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/code/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/code/welcome.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L8/正则表达式.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L8/code/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/L8/code/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +146,7 @@
       <workItem from="1601818741950" duration="1101000" />
       <workItem from="1601821342316" duration="2316000" />
       <workItem from="1601877752909" duration="3418000" />
-      <workItem from="1602410632415" duration="1446000" />
+      <workItem from="1602410632415" duration="2098000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>

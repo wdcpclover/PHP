@@ -2,7 +2,7 @@
 <html>
 <head>
     <style>
-        .error {color: #FF0000;}
+        .error {color: #ff0000;}
     </style>
 </head>
 <body>
