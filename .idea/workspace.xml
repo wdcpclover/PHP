@@ -10,7 +10,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/L6/ code/dbex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/ex1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/ code/ex2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/PHP 异常处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/PHP 错误处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L6/set_error_handler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L7/PHP 命名空间(namespace).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 必需字段.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 验证邮件和URL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单和用户输入.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单验证.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/code/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/code/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/code/welcome.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/正则表达式.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,20 +81,20 @@
       <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.error2.php">
-    <configuration name="1.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/1.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="3.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/3.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="6.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L5/code/6.php">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP 脚本.ex2.php">
     <configuration name="error1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error1.php">
       <method v="2" />
     </configuration>
     <configuration name="error2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error2.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="error.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="ex1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/ex1.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="ex2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/ex2.php">
       <method v="2" />
     </configuration>
     <configuration name="helloworld.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/L1/helloworld.php">
@@ -92,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP 脚本.ex2.php" />
+        <item itemvalue="PHP 脚本.ex1.php" />
+        <item itemvalue="PHP 脚本.error.php" />
         <item itemvalue="PHP 脚本.error2.php" />
         <item itemvalue="PHP 脚本.error1.php" />
-        <item itemvalue="PHP 脚本.1.php (1)" />
-        <item itemvalue="PHP 脚本.6.php" />
-        <item itemvalue="PHP 脚本.3.php" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +161,8 @@
       <workItem from="1601445780497" duration="4821000" />
       <workItem from="1601818741950" duration="1101000" />
       <workItem from="1601821342316" duration="2316000" />
+      <workItem from="1601877752909" duration="3418000" />
+      <workItem from="1602410632415" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -212,6 +232,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314104337" />
+    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602410651422">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1602410651422" />
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599849508498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -228,26 +252,42 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1601825253973">
+    <state width="1397" height="300" key="GridCell.Tab.0.bottom" timestamp="1601883187313">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601825253973" />
-    <state width="1397" height="242" key="GridCell.Tab.0.center" timestamp="1601825253973">
+    <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="1397" height="300" key="GridCell.Tab.0.center" timestamp="1601883187312">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601825253973" />
-    <state width="1397" height="242" key="GridCell.Tab.0.left" timestamp="1601825253973">
+    <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601883187312" />
+    <state width="1397" height="300" key="GridCell.Tab.0.left" timestamp="1601883187312">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601825253973" />
-    <state width="1397" height="242" key="GridCell.Tab.0.right" timestamp="1601825253973">
+    <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601883187312" />
+    <state width="1397" height="300" key="GridCell.Tab.0.right" timestamp="1601883187313">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601825253973" />
-    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1601821578635">
+    <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1601883187313">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1601821578635" />
+    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1601883187313">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1601883187313">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1601883187313">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1602412942650">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1602412942650" />
     <state x="0" y="0" key="SettingsEditor" timestamp="1601275923551">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
