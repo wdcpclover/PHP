@@ -11,7 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/L8/code/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/L8/code/form.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 完整表单实例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 必需字段.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单 - 验证邮件和URL.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/PHP 表单验证.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L8/正则表达式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9/MySQL 连接.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L9/code/1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -57,7 +65,7 @@
     <property name="last_opened_file_path" value="D:/phpstudy_pro/Extensions/php/php7.3.4nts/php.exe" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,8 +73,8 @@
       <recent name="C:\Users\CPC\PhpstormProjects\PHP\L1" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP 脚本.ex2.php">
-    <configuration name="error1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error1.php">
+  <component name="RunManager" selected="数据库脚本.console_2.sql">
+    <configuration name="1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PHP/L9/code/1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="error2.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/L6/ code/error2.php">
@@ -94,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript 调试.1.html" />
         <item itemvalue="PHP 脚本.ex2.php" />
         <item itemvalue="PHP 脚本.ex1.php" />
         <item itemvalue="PHP 脚本.error.php" />
         <item itemvalue="PHP 脚本.error2.php" />
-        <item itemvalue="PHP 脚本.error1.php" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +155,10 @@
       <workItem from="1601821342316" duration="2316000" />
       <workItem from="1601877752909" duration="3418000" />
       <workItem from="1602410632415" duration="2098000" />
+      <workItem from="1602482964903" duration="2506000" />
+      <workItem from="1602576017902" duration="672000" />
+      <workItem from="1602576719902" duration="3592000" />
+      <workItem from="1602592297144" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -204,10 +216,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="301" y="115" key="#CLI_Interpreters/0.0.1440.920@0.0.1440.920" timestamp="1601275922556" />
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601277567094">
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602576781068">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1601277567094" />
+    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1602576781068" />
     <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601823320311">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -216,14 +228,18 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314104337" />
-    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602410651422">
+    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602576684412">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1602410651422" />
+    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1602576684412" />
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599849508498">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.920@0.0.1440.920" timestamp="1599849508498" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1602578630453">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1440.920@0.0.1440.920" timestamp="1602578630453" />
     <state x="620" y="206" key="EnvironmentVariablesDialog" timestamp="1600314162884">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -236,22 +252,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="300" key="GridCell.Tab.0.bottom" timestamp="1601883187313">
+    <state width="957" height="163" key="GridCell.Tab.0.bottom" timestamp="1602593068534">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
-    <state width="1397" height="300" key="GridCell.Tab.0.center" timestamp="1601883187312">
+    <state width="957" height="163" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1602593068534" />
+    <state width="957" height="163" key="GridCell.Tab.0.center" timestamp="1602593068534">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1601883187312" />
-    <state width="1397" height="300" key="GridCell.Tab.0.left" timestamp="1601883187312">
+    <state width="957" height="163" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1602593068534" />
+    <state width="957" height="163" key="GridCell.Tab.0.left" timestamp="1602593068534">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1601883187312" />
-    <state width="1397" height="300" key="GridCell.Tab.0.right" timestamp="1601883187313">
+    <state width="957" height="163" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1602593068534" />
+    <state width="957" height="163" key="GridCell.Tab.0.right" timestamp="1602593068534">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="300" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="957" height="163" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1602593068534" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1601883187313">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -268,18 +284,26 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
+    <state width="151" height="477" key="HiddenNamespacesPopup" timestamp="1602582230531">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state width="151" height="477" key="HiddenNamespacesPopup/0.0.1440.920@0.0.1440.920" timestamp="1602582230531" />
     <state x="537" y="383" key="NewPhpFileDialog" timestamp="1602412942650">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1602412942650" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1601275923551">
+    <state x="0" y="0" key="SettingsEditor" timestamp="1602576128784">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1601275923551" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1602576128784" />
     <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600615847338">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1600615847338" />
+    <state x="332" y="88" width="604" height="804" key="find.popup" timestamp="1602577386594">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="332" y="88" width="604" height="804" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1602577386594" />
     <state x="377" y="213" key="run.anything.popup" timestamp="1599849637098">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
