@@ -11,7 +11,7 @@
 以下是从命令行中连接mysql服务器的简单实例：
 
 ```
-[root@host]# mysql -u root -p
+[root@host]# mysql -uroot -proot
 Enter password:******
 ```
 

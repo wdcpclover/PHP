@@ -4116,7 +4116,7 @@ BACKUP_ADMIN,BINLOG_ADMIN,CONNECTION_ADMIN,ENCRYPTION_KEY_ADMIN,GROUP_REPLICATIO
       <Definer>mysql.sys@localhost</Definer>
       <RoutineKind>function</RoutineKind>
     </routine>
-    <table id="627" parent="6" name="tb_emp1"/>
+    <table id="627" parent="6" name="work_items"/>
     <column id="628" parent="281" name="CHARACTER_SET_NAME">
       <Position>1</Position>
       <DataType>varchar(64)|0s</DataType>
@@ -20875,21 +20875,37 @@ VARIABLE_NAME</ColNames>
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>tinyint(3) unsigned|0s</DataType>
     </argument>
-    <column id="4150" parent="627" name="id">
+    <column id="4150" parent="627" name="task_id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="4151" parent="627" name="name">
+    <column id="4151" parent="627" name="subject">
       <Position>2</Position>
-      <DataType>varchar(25)|0s</DataType>
+      <DataType>varchar(45)|0s</DataType>
     </column>
-    <column id="4152" parent="627" name="deptId">
+    <column id="4152" parent="627" name="start_date">
       <Position>3</Position>
-      <DataType>int(11)|0s</DataType>
+      <DataType>date|0s</DataType>
     </column>
-    <column id="4153" parent="627" name="salary">
+    <column id="4153" parent="627" name="end_date">
       <Position>4</Position>
-      <DataType>float|0s</DataType>
+      <DataType>date|0s</DataType>
     </column>
+    <index id="4154" parent="627" name="task_id_unique">
+      <ColNames>task_id</ColNames>
+      <Unique>1</Unique>
+      <Type>btree</Type>
+    </index>
+    <key id="4155" parent="627" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>task_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="4156" parent="627" name="task_id_unique">
+      <ColNames>task_id</ColNames>
+      <UnderlyingIndexName>task_id_unique</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
