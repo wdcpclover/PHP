@@ -17,6 +17,7 @@
             <name qname="performance_schema" />
             <name qname="sys" />
             <name qname="test_db" />
+            <name qname="joindb" />
           </node>
         </introspection-scope>
       </schema-mapping>

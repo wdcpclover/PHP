@@ -85,7 +85,7 @@ FROM fruits
 WHERE f_name LIKE 'b%y';
 
 【例 14】在fruits表中，查询以字母’y’结尾，且’y’前面只有4个字母的记录，SQL语句如下：
-SELECT f_id, f_name FROM fruits WHERE f_name LIKE '----y';
+SELECT f_id, f_name FROM fruits WHERE f_name LIKE '____y';
 
 下面，在数据库中创建数据表customers，该表中包含了本章中需要用到的数据。
 CREATE TABLE customers
@@ -400,7 +400,7 @@ WHERE s_id IN(101,103);
 SELECT s_id, f_name, f_price 
 FROM fruits
 WHERE f_price < 9.0
-UNION ALL
+UNION 
 SELECT s_id, f_name, f_price 
 FROM fruits
 WHERE s_id IN(101,103);

@@ -11,13 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/L9/MySQL ALTER TABLE语句简介.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L9/MySQL CREATE TABLE语法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L9/MySQL 数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10/数据库DDL语言.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L10/数据库语言分类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L11/内连接、左连接（左外连接）、右连接（右外连接）、全连接（全外连接）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/console_2_sql.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/1sql.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/937c73bc-c5c6-4433-8ee4-102f2e10da06.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/L9/MySQL 连接.md" beforeDir="false" afterPath="$PROJECT_DIR$/L9/MySQL 连接.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L11/1、内联接（典型的联接运算，使用像 = 或  之类的比较运算符）。包括相等联接和自然联接。.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/L11/DML（Data Manipulation Language）.md" beforeDir="false" afterPath="$PROJECT_DIR$/L11/DML（Data Manipulation Language）.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +162,8 @@
       <workItem from="1602592297144" duration="2148000" />
       <workItem from="1602595703696" duration="24000" />
       <workItem from="1602656423927" duration="3882000" />
+      <workItem from="1603089558831" duration="1100000" />
+      <workItem from="1604247815788" duration="2941000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -253,22 +257,22 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="1397" height="259" key="GridCell.Tab.0.bottom" timestamp="1602660752462">
+    <state width="957" height="305" key="GridCell.Tab.0.bottom" timestamp="1604250477755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="259" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1602660752462" />
-    <state width="1397" height="259" key="GridCell.Tab.0.center" timestamp="1602660752462">
+    <state width="957" height="305" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1604250477755" />
+    <state width="957" height="305" key="GridCell.Tab.0.center" timestamp="1604250477755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="259" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1602660752462" />
-    <state width="1397" height="259" key="GridCell.Tab.0.left" timestamp="1602660752461">
+    <state width="957" height="305" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1604250477755" />
+    <state width="957" height="305" key="GridCell.Tab.0.left" timestamp="1604250477755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="259" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1602660752461" />
-    <state width="1397" height="259" key="GridCell.Tab.0.right" timestamp="1602660752462">
+    <state width="957" height="305" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1604250477755" />
+    <state width="957" height="305" key="GridCell.Tab.0.right" timestamp="1604250477755">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state width="1397" height="259" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1602660752462" />
+    <state width="957" height="305" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1604250477755" />
     <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1601883187313">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -313,6 +317,10 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="377" y="213" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1599849637098" />
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1604248699893">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1604248699893" />
     <state x="526" y="144" key="svn.repositoryBrowser" timestamp="1600019905034">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
