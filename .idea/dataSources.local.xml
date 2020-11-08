@@ -18,6 +18,8 @@
             <name qname="sys" />
             <name qname="test_db" />
             <name qname="joindb" />
+            <name qname="testdb" />
+            <name qname="infoschool" />
           </node>
         </introspection-scope>
       </schema-mapping>
