@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/L11/内连接、左连接（左外连接）、右连接（右外连接）、全连接（全外连接）.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/L12/数据库查询练习.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12/数据库查询练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L12/数据库查询练习题目.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +159,9 @@
       <workItem from="1603089558831" duration="1100000" />
       <workItem from="1604247815788" duration="2941000" />
       <workItem from="1604296861490" duration="5172000" />
-      <workItem from="1604825792685" duration="4664000" />
+      <workItem from="1604825792685" duration="5118000" />
+      <workItem from="1604902172341" duration="1531000" />
+      <workItem from="1604904366900" duration="818000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
