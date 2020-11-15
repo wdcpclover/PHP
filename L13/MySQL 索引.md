@@ -197,8 +197,8 @@ year_publication   	YEAR NOT NULL,
 INDEX(year_publication)
 );
 
- SHOW CREATE table book； \G
-explain select * from book where year_publication=1990 \G
+ SHOW CREATE table book； 
+explain select * from book where year_publication=1990 
 【例2】创建一个表t1，在表中的id字段上使用UNIQUE关键字创建唯一索引。
 CREATE TABLE t1
 (
@@ -206,7 +206,7 @@ id    INT NOT NULL,
 name CHAR(30) NOT NULL,
 UNIQUE INDEX UniqIdx(id)
 );
-SHOW CREATE table t1 \G
+SHOW CREATE table t1 
 
 【例3】创建一个表t2，在表中的name字段上创建单列索引。
 表结构如下：
@@ -217,7 +217,7 @@ name CHAR(50) NULL,
 INDEX SingleIdx(name(20))
 );
 
- SHOW CREATE table t2 \G
+ SHOW CREATE table t2 
 
 【例4】创建表t3，在表中的id、name和age字段上建立组合索引，SQL语句如下：
 CREATE TABLE t3
@@ -229,9 +229,9 @@ info VARCHAR(255),
 INDEX MultiIdx(id, name, age(100))
 );
 该语句执行完毕之后，使用SHOW CREATE TABLE查看表结构：
- SHOW CREATE table t3 \G
+ SHOW CREATE table t3 
 
- explain select * from t3 where id=1 AND name='joe' \G
+ explain select * from t3 where id=1 AND name='joe' 
 
 【例5】创建表t4，在表中的info字段上建立全文索引，SQL语句如下：
 CREATE TABLE t4
@@ -243,27 +243,27 @@ info VARCHAR(255),
 FULLTEXT INDEX FullTxtIdx(info)
 ) ENGINE=MyISAM;
 
- SHOW CREATE table t4 \G
+ SHOW CREATE table t4 
 
 【例6】创建表t5，在空间类型为GEOMETRY的字段上创建空间索引，SQL语句如下：
 CREATE TABLE t5
 ( g GEOMETRY NOT NULL, SPATIAL INDEX spatIdx(g) )ENGINE=MyISAM;
 该语句执行完毕之后，使用SHOW CREATE TABLE查看表结构：
- SHOW CREATE table t5 \G
+ SHOW CREATE table t5 
 【例7】在book表中的bookname字段上建立名为BkNameIdx的普通索引，SQL语句如下：
 ALTER TABLE book ADD INDEX BkNameIdx ( bookname(30) );
 添加索引之前，使用SHOW INDEX语句查看指定表中创建的索引：
- SHOW INDEX FROM book \G
+ SHOW INDEX FROM book 
 
 下面使用ALTER TABLE 在bookname字段上添加索引，SQL语句如下：
 ALTER TABLE book ADD INDEX BkNameIdx( bookname(30) );
 使用SHOW INDEX语句查看表中的索引：
- SHOW INDEX FROM book \G
+ SHOW INDEX FROM book 
 
 【例8】在book表的bookId字段上建立名称为UniqidIdx 的唯一索引，SQL语句如下：
 ALTER TABLE book ADD UNIQUE INDEX UniqidIdx ( bookId );
 使用SHOW INDEX语句查看表中的索引：
- SHOW INDEX FROM book \G
+ SHOW INDEX FROM book 
 
 【例9】在book表的comment字段上建立单列索引，SQL语句如下：
 ALTER TABLE book ADD INDEX BkcmtIdx ( comment(50) );
@@ -284,14 +284,13 @@ info  CHAR(255)
 使用ALTER TABLE语句在info字段上创建全文索引：
 ALTER TABLE t6 ADD FULLTEXT INDEX infoFTIdx ( info );
 使用SHOW INDEX语句查看索引：
- SHOW index from t6 \G
-
+ SHOW index from t6 
 【例12】创建表t7，在t7的空间数据类型字段g上创建名称为spatIdx的空间索引，SQL语句如下：
 CREATE TABLE t7 ( g GEOMETRY NOT NULL )ENGINE=MyISAM;
 使用ALTER TABLE在表t7的g字段建立空间索引：
 ALTER TABLE t7 ADD SPATIAL INDEX spatIdx(g);
 使用SHOW INDEX语句查看索引：
- SHOW index from t7 \G
+ SHOW index from t7 
 
 2．使用CREATE INDEX创建索引
 CREATE INDEX语句可以在已经存在的表上添加索引，MySQL中CREATE INDEX被映射到一个ALTER TABLE语句上，基本语法结构为：
