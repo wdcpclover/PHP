@@ -104,11 +104,26 @@ create function 存储函数名(参数)
 
 创建数据库，备份数据表用于示例操作：
 
-mysql> create database db1; mysql> use db1;     mysql> create table PLAYERS as select * from TENNIS.PLAYERS; mysql> create table MATCHES  as select * from TENNIS.MATCHES;
+```
+mysql> create database db1;
+mysql> use db1;    
+mysql> create table PLAYERS as select * from TENNIS.PLAYERS;
+mysql> create table MATCHES  as select * from TENNIS.MATCHES;
+```
 
 下面是存储过程的例子，删除给定球员参加的所有比赛：
 
-mysql> delimiter $$　　#将语句的结束符号从分号;临时改为两个$$(可以是自定义) mysql> CREATE PROCEDURE delete_matches(IN p_playerno INTEGER)    -> BEGIN    -> 　　DELETE FROM MATCHES    ->    WHERE playerno = p_playerno;    -> END$$ Query OK, 0 rows affected (0.01 sec)  mysql> delimiter;　　#将语句的结束符号恢复为分号
+```
+mysql> delimiter $$　　#将语句的结束符号从分号;临时改为两个$$(可以是自定义)
+mysql> CREATE PROCEDURE delete_matches(IN p_playerno INTEGER)
+    -> BEGIN
+    -> 　　DELETE FROM MATCHES
+    ->    WHERE playerno = p_playerno;
+    -> END$$
+Query OK, 0 rows affected (0.01 sec)
+ 
+mysql> delimiter;　　#将语句的结束符号恢复为分号
+```
 
 **解析：**默认情况下，存储过程和默认数据库相关联，如果想指定存储过程创建在某个特定的数据库下，那么在过程名前面加数据库名做前缀。 在定义过程时，使用 **DELIMITER $$** 命令将语句的结束符号从分号 **;** 临时改为两个 **$$**，使得过程体中使用的分号被直接传递到服务器，而不会被客户端（如mysql）解释。
 
@@ -118,7 +133,33 @@ mysql> delimiter $$　　#将语句的结束符号从分号;临时改为两个$$
 call sp_name[(传参)];
 ```
 
-mysql> select * from MATCHES; +---------+--------+----------+-----+------+ | MATCHNO | TEAMNO | PLAYERNO | WON | LOST | +---------+--------+----------+-----+------+ |       1 |      1 |        6 |   3 |    1 | |       7 |      1 |       57 |   3 |    0 | |       8 |      1 |        8 |   0 |    3 | |       9 |      2 |       27 |   3 |    2 | |      11 |      2 |      112 |   2 |    3 | +---------+--------+----------+-----+------+ 5 rows in set (0.00 sec)  mysql> call delete_matches(57); Query OK, 1 row affected (0.03 sec)  mysql> select * from MATCHES; +---------+--------+----------+-----+------+ | MATCHNO | TEAMNO | PLAYERNO | WON | LOST | +---------+--------+----------+-----+------+ |       1 |      1 |        6 |   3 |    1 | |       8 |      1 |        8 |   0 |    3 | |       9 |      2 |       27 |   3 |    2 | |      11 |      2 |      112 |   2 |    3 | +---------+--------+----------+-----+------+ 4 rows in set (0.00 sec)
+```
+mysql> select * from MATCHES;
++---------+--------+----------+-----+------+
+| MATCHNO | TEAMNO | PLAYERNO | WON | LOST |
++---------+--------+----------+-----+------+
+|       1 |      1 |        6 |   3 |    1 |
+|       7 |      1 |       57 |   3 |    0 |
+|       8 |      1 |        8 |   0 |    3 |
+|       9 |      2 |       27 |   3 |    2 |
+|      11 |      2 |      112 |   2 |    3 |
++---------+--------+----------+-----+------+
+5 rows in set (0.00 sec)
+ 
+mysql> call delete_matches(57);
+Query OK, 1 row affected (0.03 sec)
+ 
+mysql> select * from MATCHES;
++---------+--------+----------+-----+------+
+| MATCHNO | TEAMNO | PLAYERNO | WON | LOST |
++---------+--------+----------+-----+------+
+|       1 |      1 |        6 |   3 |    1 |
+|       8 |      1 |        8 |   0 |    3 |
+|       9 |      2 |       27 |   3 |    2 |
+|      11 |      2 |      112 |   2 |    3 |
++---------+--------+----------+-----+------+
+4 rows in set (0.00 sec)
+```
 
 **解析：**在存储过程中设置了需要传参的变量p_playerno，调用存储过程的时候，通过传参将57赋值给p_playerno，然后进行存储过程里的SQL操作。
 
