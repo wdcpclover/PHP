@@ -10,7 +10,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist" />
+    <list default="true" id="b65961c2-157e-42ed-90cf-c4521de32a65" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/L13/MySQL 索引.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14/MySQL 存储过程.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14/数据库视图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L14/数据库视图.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L16/mysqli.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L16/mysqli2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/L16/pdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/10fff8f7-1b07-47bf-a469-e03c63da53b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L13/MySQL 索引.md" beforeDir="false" afterPath="$PROJECT_DIR$/L13/MySQL 索引.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/L14/MySQL 存储过程.md" beforeDir="false" afterPath="$PROJECT_DIR$/L14/MySQL 存储过程.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,10 +64,11 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="Markdown" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="D:/phpstudy_pro/Extensions/php/php7.3.4nts/php.exe" />
+    <property name="last_opened_file_path" value="D:/phpstudy_pro/WWW/www.try.com" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="database.main" />
@@ -161,6 +176,10 @@
       <workItem from="1605074646846" duration="4998000" />
       <workItem from="1605451333932" duration="2275000" />
       <workItem from="1605506573409" duration="5494000" />
+      <workItem from="1606060248041" duration="3499000" />
+      <workItem from="1606111752874" duration="4846000" />
+      <workItem from="1606144579097" duration="27000" />
+      <workItem from="1608478657156" duration="3352000" />
     </task>
     <task id="LOCAL-00001" summary="Default Changelist">
       <created>1600020074350</created>
@@ -212,120 +231,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Default Changelist" />
     <option name="LAST_COMMIT_MESSAGE" value="Default Changelist" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="301" y="115" key="#CLI_Interpreters" timestamp="1601275922556">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="301" y="115" key="#CLI_Interpreters/0.0.1440.920@0.0.1440.920" timestamp="1601275922556" />
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604905190115">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="175" y="115" width="1089" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.920@0.0.1440.920" timestamp="1604905190115" />
-    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601823320311">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="565" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.920@0.0.1440.920" timestamp="1601823320311" />
-    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1600314104337">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="500" y="165" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314104337" />
-    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602576684412">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="381" y="215" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.920@0.0.1440.920" timestamp="1602576684412" />
-    <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599849508498">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="477" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.920@0.0.1440.920" timestamp="1599849508498" />
-    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1602578630453">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1440.920@0.0.1440.920" timestamp="1602578630453" />
-    <state x="620" y="206" key="EnvironmentVariablesDialog" timestamp="1600314162884">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="620" y="206" key="EnvironmentVariablesDialog/0.0.1440.920@0.0.1440.920" timestamp="1600314162884" />
-    <state x="501" y="201" key="FileChooserDialogImpl" timestamp="1604905185348">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="501" y="201" key="FileChooserDialogImpl/0.0.1440.920@0.0.1440.920" timestamp="1604905185348" />
-    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog" timestamp="1600019891596">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="606" y="358" width="228" height="280" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1600019891596" />
-    <state width="957" height="243" key="GridCell.Tab.0.bottom" timestamp="1605510527762">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="957" height="243" key="GridCell.Tab.0.bottom/0.0.1440.920@0.0.1440.920" timestamp="1605510527762" />
-    <state width="957" height="243" key="GridCell.Tab.0.center" timestamp="1605510527762">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="957" height="243" key="GridCell.Tab.0.center/0.0.1440.920@0.0.1440.920" timestamp="1605510527762" />
-    <state width="957" height="243" key="GridCell.Tab.0.left" timestamp="1605510527762">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="957" height="243" key="GridCell.Tab.0.left/0.0.1440.920@0.0.1440.920" timestamp="1605510527762" />
-    <state width="957" height="243" key="GridCell.Tab.0.right" timestamp="1605510527762">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="957" height="243" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1605510527762" />
-    <state width="1397" height="300" key="GridCell.Tab.1.bottom" timestamp="1601883187313">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.bottom/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
-    <state width="1397" height="300" key="GridCell.Tab.1.center" timestamp="1601883187313">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.center/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
-    <state width="1397" height="300" key="GridCell.Tab.1.left" timestamp="1601883187313">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.left/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
-    <state width="1397" height="300" key="GridCell.Tab.1.right" timestamp="1601883187313">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="1397" height="300" key="GridCell.Tab.1.right/0.0.1440.920@0.0.1440.920" timestamp="1601883187313" />
-    <state width="469" height="477" key="HiddenNamespacesPopup" timestamp="1602656602530">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state width="469" height="477" key="HiddenNamespacesPopup/0.0.1440.920@0.0.1440.920" timestamp="1602656602530" />
-    <state x="537" y="383" key="NewPhpFileDialog" timestamp="1602412942650">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="537" y="383" key="NewPhpFileDialog/0.0.1440.920@0.0.1440.920" timestamp="1602412942650" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1602576128784">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1440.920@0.0.1440.920" timestamp="1602576128784" />
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1600615847338">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1600615847338" />
-    <state x="603" y="347" width="332" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1604827272711">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="603" y="347" width="332" height="249" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1440.920@0.0.1440.920" timestamp="1604827272711" />
-    <state x="564" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1604828694179">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="564" y="231" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1440.920@0.0.1440.920" timestamp="1604828694179" />
-    <state x="332" y="88" width="604" height="804" key="find.popup" timestamp="1602577386594">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="332" y="88" width="604" height="804" key="find.popup/0.0.1440.920@0.0.1440.920" timestamp="1602577386594" />
-    <state x="377" y="213" key="run.anything.popup" timestamp="1599849637098">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="377" y="213" key="run.anything.popup/0.0.1440.920@0.0.1440.920" timestamp="1599849637098" />
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1604248699893">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="383" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1440.920@0.0.1440.920" timestamp="1604248699893" />
-    <state x="526" y="144" key="svn.repositoryBrowser" timestamp="1600019905034">
-      <screen x="0" y="0" width="1440" height="920" />
-    </state>
-    <state x="526" y="144" key="svn.repositoryBrowser/0.0.1440.920@0.0.1440.920" timestamp="1600019905034" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

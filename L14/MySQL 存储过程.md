@@ -227,7 +227,7 @@ mysql> call in_param(@p_in);
 +------+
 | p_in |
 +------+
-|    1 |
+|    2 |
 +------+
  
 +------+
@@ -354,29 +354,12 @@ DECLAREvariable_name [,variable_name...] datatype [DEFAULT value];
 
 例如:
 
-```
-mysql > SELECT 'Hello World' into @x;  
-mysql > SELECT @x;  
-+-------------+  
-|   @x        |  
-+-------------+  
-| Hello World |  
-+-------------+  
-mysql > SET @y='Goodbye Cruel World';  
-mysql > SELECT @y;  
-+---------------------+  
-|     @y              |  
-+---------------------+  
-| Goodbye Cruel World |  
-+---------------------+  
- 
-mysql > SET @z=1+2+3;  
-mysql > SELECT @z;  
-+------+  
-| @z   |  
-+------+  
-|  6   |  
-+------+
+```mysql
+DECLARE l_int int unsigned default 4000000;  
+DECLARE l_numeric number(8,2) DEFAULT 9.95;  
+DECLARE l_date date DEFAULT '1999-12-31';  
+DECLARE l_datetime datetime DEFAULT '1999-12-31 23:59:59';  
+DECLARE l_varchar varchar(255) DEFAULT 'This will not be padded';
 ```
 
 
@@ -834,59 +817,7 @@ Query OK, 0 rows affected (0.00 sec)
 /*查看调用过程结果*/
  SELECT @x;
 
-【例  10】声明名称为cursor_fruit的光标，代码如下：
-DECLARE cursor_fruit CURSOR FOR SELECT f_name, f_price FROM fruits ;
-上面的示例中，光标的名称为cur_fruit，SELECT语句部分从fruits表中查询出f_name和f_price字段的值。
-【例  12】使用名称为cursor_fruit的光标。将查询出来的数据存入fruit_name和fruit_price这两个变量中，代码如下：
-FETCH  cursor_fruit INTO fruit_name, fruit_price ;
-上面的示例中，将光标cursor_fruit中SELECT语句查询出来的信息存入fruit_name和fruit_price中。fruit_name和fruit_price必须在前面已经定义。
-
-【例  13】关闭名称为cursor_fruit的光标，代码如下：
-CLOSE  cursor_fruit; 
-
-【例  14】IF语句的示例，代码如下：
-IF val IS NULL
-  THEN SELECT 'val is NULL';
-  ELSE SELECT 'val is not NULL';
-END IF;
-【例  15】使用CASE流程控制语句的第1种格式，判断val值等于1、等于2，或者两者都不等，语句如下：
-CASE val
-  WHEN 1 THEN SELECT 'val is 1';
-  WHEN 2 THEN SELECT 'val is 2';
-  ELSE SELECT 'val is not 1 or 2';
-END CASE;
-当val值为1时，输出字符串“val is 1”；当val值为2时，输出字符串“val is 2”；否则输出字符串“val is not 1 or 2”。
-CASE语句的第2种格式如下：
-CASE
-    WHEN expr_condition THEN statement_list
-    [WHEN expr_condition THEN statement_list] ...
-    [ELSE statement_list]
-END CASE
-【例  16】使用CASE流程控制语句的第2种格式，判断val是否为空、小于0、大于0或者等于0，语句如下：
-CASE
-  WHEN val IS NULL THEN SELECT 'val is NULL';
-  WHEN val < 0 THEN SELECT 'val is less than 0';
-  WHEN val > 0 THEN SELECT 'val is greater than 0';
-  ELSE SELECT 'val is 0';
-END CASE;
-当val值为空，输出字符串“val is NULL”；当val值小于0时，输出字符串“val is less than 0”；当val值大于0时，输出字符串“val is greater than 0”；否则输出字符串“val is 0”。
-
-【例  17】使用LOOP语句进行循环操作，id值小于等于10之前，将重复执行循环过程，代码如下：
-DECLARE id INT DEFAULT 0;
-add_loop: LOOP  
-SET id = id + 1;
-  IF id >= 10 THEN  LEAVE add_loop;
-  END IF;
-END LOOP add_ loop; 
-
-【例  18】使用LEAVE语句退出循环，代码如下：
-add_num: LOOP  
-SET @count=@count+1;
-IF @count=50 THEN LEAVE add_num ;
-END LOOP add_num ; 
-该示例循环执行count加1的操作。当count的值等于50时，使用LEAVE语句跳出循环。
-
-【例  19】ITERATE语句示例，代码如下：
+【例  11】ITERATE语句示例，代码如下：
 CREATE PROCEDURE doiterate()
 BEGIN
 DECLARE p1 INT DEFAULT 0;
@@ -899,7 +830,7 @@ my_loop: LOOP
 END LOOP my_loop;
 END
 
-【例  20】REPEAT语句示例，id值小于等于10之前，将重复执行循环过程，代码如下：
+【例  12】REPEAT语句示例，id值小于等于10之前，将重复执行循环过程，代码如下：
 DECLARE id INT DEFAULT 0;
 REPEAT
 SET id = id + 1;
@@ -907,13 +838,13 @@ UNTIL  id >= 10
 END REPEAT; 
 该示例循环执行id加1的操作。当id值小于10时，循环重复执行；当id值大于或者等于10时，使用LEAVE语句退出循环。REPEAT循环都以END REPEAT结束。
 
-【例  21】WHILE语句示例，id值小于等于10之前，将重复执行循环过程，代码如下：
+【例  13】WHILE语句示例，id值小于等于10之前，将重复执行循环过程，代码如下：
 DECLARE i INT DEFAULT 0;
 WHILE i < 10 DO
 SET i = i + 1;
 END WHILE;
 
-【例  22】定义名为CountProc1的存储过程，然后调用这个存储过程，代码执行如下：
+【例  14】定义名为CountProc1的存储过程，然后调用这个存储过程，代码执行如下：
 定义存储过程：
  DELIMITER //
  CREATE PROCEDURE CountProc1 (IN sid INT, OUT num INT)
@@ -930,7 +861,7 @@ Query OK, 1 row affected (0.00 sec)
  select @num;
 
 
-【例  23】定义存储函数CountProc2，然后调用这个函数，代码如下：
+【例  15】定义存储函数CountProc2，然后调用这个函数，代码如下：
  DELIMITER //
  CREATE FUNCTION  CountProc2 (sid INT)
      RETURNS INT
@@ -942,47 +873,8 @@ Query OK, 0 rows affected (0.00 sec)
 调用存储函数：
  SELECT CountProc2(101);
 
-【例  24】SHOW STATUS语句示例，代码如下：
-SHOW PROCEDURE STATUS LIKE 'C%'\G
 
-【例  25】SHOW CREATE语句示例，代码如下：
-SHOW CREATE FUNCTION test.CountProc \G
-
-【例  26】从Routines表中查询名称为CountProc的存储函数的信息，代码如下：
-SELECT * FROM information_schema.Routines
-WHERE ROUTINE_NAME='CountProc'  AND  ROUTINE_TYPE = 'FUNCTION' \G
-
-【例  27】修改存储过程CountProc的定义。将读写权限改为MODIFIES SQL DATA，并指明调用者可以执行，代码如下：
-ALTER  PROCEDURE  CountProc  
-MODIFIES SQL DATA
-SQL SECURITY INVOKER ; 
-执行代码，并查看修改后的信息。结果显示如下：
-//执行ALTER PROCEDURE语句
- ALTER  PROCEDURE  CountProc
-     MODIFIES SQL DATA  
-     SQL SECURITY INVOKER ;
-Query OK, 0 rows affected (0.00 sec)  
-//查询修改后的CountProc表信息  
- SELECT SPECIFIC_NAME,SQL_DATA_ACCESS,SECURITY_TYPE
-      FROM information_schema.Routines
-     WHERE ROUTINE_NAME='CountProc' AND ROUTINE_TYPE='PROCEDURE';
-
-【例  28】修改存储函数CountProc的定义。将读写权限改为READS SQL DATA，并加上注释信息“FIND NAME”，代码如下：
-ALTER  FUNCTION  CountProc
-READS SQL DATA  
-COMMENT 'FIND NAME' ; 
-执行代码，并查看修改后的信息。结果显示如下：
-//执行ALTER FUNCTION语句
- ALTER  FUNCTION  CountProc  
-     READS SQL DATA  
-     COMMENT 'FIND NAME' ;  
-Query OK, 0 rows affected (0.00 sec)  
-//查询修改后f表的信息
- SELECT SPECIFIC_NAME,SQL_DATA_ACCESS,ROUTINE_COMMENT 
-FROM information_schema.Routines 
-WHERE ROUTINE_NAME='CountProc'  AND  ROUTINE_TYPE = 'FUNCTION'  ;
-
-【例  29】删除存储过程和存储函数，代码如下：
+【例  16】删除存储过程和存储函数，代码如下：
 DROP PROCEDURE CountProc;
 DROP FUNCTION CountProc;
 
